@@ -1,0 +1,27 @@
+
+body {
+background: url("http://vignette4.wikia.nocookie.net/heman/images/7/7f/244.gif/revision/latest?cb=20121219093547");
+}
+h1 {
+  color: brown; 
+}      
+h2 {color: red;
+}     
+.whatever {
+  display: inline-block;
+}
+.she {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+      animation: example 2s infinite;
+}
+
+@keyframes example {
+    0% {top: 10%; }
+    25% {top: 10%;left: 50%}
+    50% {top: 50%; left: 50%}
+    75% {top: 50%; left: 10%}
+   100% {top: 10%}
+  
+}
